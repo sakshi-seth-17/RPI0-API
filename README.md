@@ -3,7 +3,7 @@ This API is built using Python's flask package to store information coming in fr
 
 ### Instructions
 1. Clone this repository. \
-`git clone https://github.com/sakshi-seth-17/SensorsData.git`
+`git clone https://github.com/sakshi-seth-17/RPI0-API.git`
 
 2. Make neccessary changes required in the app.py wrt specific path. \
 
