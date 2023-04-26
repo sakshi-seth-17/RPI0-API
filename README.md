@@ -4,7 +4,7 @@ This API is built using Python's flask package to store information coming in fr
 ---
 
 ### Flow of the application:
-<img src="https://github.com/sakshi-seth-17/SensorsData/blob/main/SensorDataFlow.jpg" alt="Alt text" title="Optional title">
+<img src="https://github.com/sakshi-seth-17/RPI0-API/blob/main/RPI0-API-Flow.jpg" alt="Alt text" title="Optional title">
 
 
 ### Instructions
