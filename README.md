@@ -1,6 +1,12 @@
 # RPI0-API
 This API is built using Python's flask package to store information coming in from RPI0 to firebase database. RPI0 does not support firebase package hence, this API
 
+---
+
+### Flow of the application:
+<img src="https://github.com/sakshi-seth-17/SensorsData/blob/main/SensorDataFlow.jpg" alt="Alt text" title="Optional title">
+
+
 ### Instructions
 1. Clone this repository. \
 `git clone https://github.com/sakshi-seth-17/RPI0-API.git`
