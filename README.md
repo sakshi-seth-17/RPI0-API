@@ -11,13 +11,13 @@ This API is built using Python's flask package to store information coming in fr
 1. Clone this repository. \
 `git clone https://github.com/sakshi-seth-17/RPI0-API.git`
 
-2. Make neccessary changes required in the app.py wrt specific path. \
+2. Make neccessary changes required in the app.py wrt specific path. 
 
 3. Travel to the parent project directory and install the required python packages. \
-`Create virtual environment – python3 -m venv venv` \
+Create virtual environment – `python3 -m venv venv` \
 `source venv/bin/activate` \
 `pip3 install -r requirement.txt` \
-`To check if application is working fine run – python3 app.py` \
+`To check if application is working fine run – python3 app.py` 
 
 ### API listing on webserver
 1. To access any API from outside the server, the API needs to be listed on the server.
