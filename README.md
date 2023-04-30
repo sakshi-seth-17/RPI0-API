@@ -39,20 +39,20 @@ Create virtual environment – `python3 -m venv venv` \
 ### Create service file to make the app run indefinitely
 `sudo nano /lib/systemd/system/rpi0.service` \
 Paste below lines inside the file by making necessary changes \
-          [Unit] \
-          Description=rpi0 \
-          After=multi-user.target 
+              [Unit] \
+              Description=rpi0 \
+              After=multi-user.target 
 
 
-          [Service] \
-          User=webserver \
-          Type=idle \
-          ExecStart=/var/www/aspendb/probesearch/rpi0/venv/bin/python3 /var/www/aspendb/probesearch/rpi0/app.py \
-          Restart=on-failure 
+              [Service] \
+              User=webserver \
+              Type=idle \
+              ExecStart=/var/www/aspendb/probesearch/rpi0/venv/bin/python3 /var/www/aspendb/probesearch/rpi0/app.py \
+              Restart=on-failure 
 
 
-          [Install] \
-          WantedBy=multi-user.target 
+              [Install] \
+              WantedBy=multi-user.target 
 
 `sudo chmod 644 /lib/systemd/system/SensorsData.service` \
 `sudo systemctl enable rpi0.service` \
