@@ -17,7 +17,7 @@ This API is built using Python's flask package to store information coming in fr
 Create virtual environment – `python3 -m venv venv` \
 `source venv/bin/activate` \
 `pip3 install -r requirement.txt` \
-`To check if application is working fine run – python3 app.py` 
+To check if application is working fine run – `python3 app.py` 
 
 ### API listing on webserver
 1. To access any API from outside the server, the API needs to be listed on the server.
