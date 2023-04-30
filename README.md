@@ -27,7 +27,7 @@ Create virtual environment – `python3 -m venv venv` \
   - `sudo ufw status`
   - `cd /etc/apache2/sites-available`
   - `sudo nano 000-default.conf` \
-    o	Add below lines \
+    o	Add below lines 
     
     
               #pi0
