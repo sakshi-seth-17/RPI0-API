@@ -22,13 +22,13 @@ Create virtual environment – `python3 -m venv venv` \
 ### API listing on webserver
 1. To access any API from outside the server, the API needs to be listed on the server.
 2. Steps to register the API on the server with reverse proxy:
-  - First, allow outgoing port - sudo ufw allow 8072
-  - sudo ufw enable
-  - sudo ufw status
-  - cd /etc/apache2/sites-available
-  - sudo nano 000-default.conf
+  - First, allow outgoing port - `sudo ufw allow 8072`
+  - `sudo ufw enable`
+  - `sudo ufw status`
+  - `cd /etc/apache2/sites-available`
+  - `sudo nano 000-default.conf`
     o	Add below lines
-    `#pi0` \
+    `#pi0` 
     `ProxyPass /rpi0  http://128.192.158.63:8072/rpi0` \
     `ProxyPassReverse /rpi0  http://128.192.158.63:8072/rpi0` \
   - Now restart apache2
