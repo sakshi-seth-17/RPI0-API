@@ -27,8 +27,8 @@ Create virtual environment – `python3 -m venv venv` \
   - `sudo ufw status`
   - `cd /etc/apache2/sites-available`
   - `sudo nano 000-default.conf`
-    o	Add below lines
-    `#pi0` 
+    o	Add below lines \
+    `#pi0` \
     `ProxyPass /rpi0  http://128.192.158.63:8072/rpi0` \
     `ProxyPassReverse /rpi0  http://128.192.158.63:8072/rpi0` \
   - Now restart apache2
