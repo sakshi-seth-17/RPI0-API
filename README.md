@@ -39,6 +39,8 @@ Create virtual environment – `python3 -m venv venv` \
 ### Create service file to make the app run indefinitely
 `sudo nano /lib/systemd/system/rpi0.service` \
 Paste below lines inside the file by making necessary changes
+
+
               [Unit] 
               Description=rpi0 
               After=multi-user.target 
@@ -57,7 +59,7 @@ Paste below lines inside the file by making necessary changes
 `sudo systemctl enable rpi0.service` \
 `sudo systemctl daemon-reload` \
 `sudo systemctl start rpi0.service` \
-`sudo systemctl status rpi0.service` \
+`sudo systemctl status rpi0.service` 
 
 ---
 ### Location details of the components:
